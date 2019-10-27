@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="yihuang.FiveInLine.startGame">
+  <grid id="27dc6" binding="BasePanel" layout-manager="FormLayout">
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <constraints>
+      <xy x="20" y="117" width="598" height="313"/>
+    </constraints>
+    <properties>
+      <background color="-1121806"/>
+      <name value="Base"/>
+    </properties>
+    <border type="line" title-justification="4"/>
+    <children>
+      <component id="df019" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <icon value="yihuang/images/FiveInLine.png"/>
+          <name value="imageLabel"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="ce5a3" binding="buttoms" layout-manager="FormLayout">
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:d:grow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <background color="-1121806"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="425f7" class="javax.swing.JRadioButton" binding="多人本地对战">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <background color="-1121806"/>
+              <icon value="yihuang/images/partner.png"/>
+              <selectedIcon value="yihuang/images/goto.png"/>
+              <text value="多人本地对战"/>
+            </properties>
+          </component>
+          <component id="ba04d" class="javax.swing.JRadioButton" binding="多人联机对战">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <background color="-1121806"/>
+              <icon value="yihuang/images/international.png"/>
+              <label value="多人联机对战"/>
+              <selectedIcon value="yihuang/images/goto.png"/>
+              <text value="多人联机对战"/>
+            </properties>
+          </component>
+          <component id="d507" class="javax.swing.JRadioButton" binding="人机对战先手">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <background color="-1121806"/>
+              <borderPainted value="false"/>
+              <icon value="yihuang/images/user.png"/>
+              <selectedIcon value="yihuang/images/goto.png"/>
+              <text value="人机对战"/>
+            </properties>
+          </component>
+          <component id="1b315" class="javax.swing.JButton" binding="开始游戏Button" default-binding="true">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-1866339"/>
+              <icon value="yihuang/images/play.png"/>
+              <name value="StartGame"/>
+              <text value="开始游戏"/>
+            </properties>
+          </component>
+          <component id="dd7db" class="javax.swing.JButton" binding="退出游戏Button" default-binding="true">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-10558522"/>
+              <icon value="yihuang/images/close.png"/>
+              <name value="EndGame"/>
+              <text value="退出游戏"/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <vspacer id="fc2a8">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-vert="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="yihuang.FiveInLine.endGame">
+  <grid id="27dc6" binding="end" layout-manager="FormLayout">
+    <rowspec value="center:d:grow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <constraints>
+      <xy x="20" y="81" width="194" height="102"/>
+    </constraints>
+    <properties>
+      <background color="-10558522"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="4db96" class="javax.swing.JLabel" binding="endgame">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <background color="-10558522"/>
+          <font size="20" style="1"/>
+          <foreground color="-1892567"/>
+          <icon value="yihuang/images/caution.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3cac" class="javax.swing.JButton" binding="sure">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="60" bottom="0" right="60" defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <background color="-903873"/>
+          <text value="确定"/>
+        </properties>
+      </component>
+      <vspacer id="deed6">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="69c7b">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
